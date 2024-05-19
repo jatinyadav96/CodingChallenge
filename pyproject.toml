@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "CodingChallenge"
+version = "0.1.0"
+description = "A FastAPI project"
+authors = ["Jatin Yadav <jatinyadav154@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.70.0"
+uvicorn = "^0.15.0"
+pydantic-yaml = "^0.11.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
